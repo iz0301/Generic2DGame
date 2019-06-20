@@ -28,6 +28,7 @@ val KeyboardInputMap: InputMap
         /**
          * Gets all the combinations of the modifiers and returns them as an array. Combinations are determined by
          * addition. (ex: input 1 2 4, output 1 2 3 4 5 6 7)
+         * test
          */
         fun getAllCombosFor(modifier : IntArray) : IntArray {
             if (modifier.size == 1){
